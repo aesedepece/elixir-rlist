@@ -2,7 +2,7 @@ defmodule Rlist.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :insight,
+    [app: :rlist,
      version: "0.0.1",
      elixir: "~> 1.2",
      description: description,
@@ -19,7 +19,7 @@ defmodule Rlist.Mixfile do
   end
 
   def application do
-    [applications: [:logger]]
+    [applications: []]
   end
 
   defp package do
