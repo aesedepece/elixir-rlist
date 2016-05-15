@@ -27,9 +27,9 @@ import Rlist
 rlist = []
   |> ArrayList.push("hello")
   |> ArrayList.push("fellow")
-  |> ArrayList.push("alchimists")
+  |> ArrayList.push("alchemists")
 
-# Prints ["alchimists", "fellow", "hello"]
+# Prints ["alchemists", "fellow", "hello"]
 rlist |> IO.inspect
 
 # Prints "hello"
