@@ -2,7 +2,6 @@ defmodule Rlist do
   @moduledoc "Wrapper around Elixir Lists for efficiency and convenience"
 
   def at(list, i, default \\ nil) do
-    len = count list
     Enum.at list, -(i + 1), default
   end
 
