@@ -1,4 +1,4 @@
-# Rlist [![hex.pm version](https://img.shields.io/hexpm/v/plug.svg?style=flat)](https://hex.pm/packages/rlist)
+# Rlist [![hex.pm version](https://img.shields.io/hexpm/v/rlist.svg?style=flat)](https://hex.pm/packages/rlist)
 
 A wrapper around Elixir's Lists that makes cheaper pushing items to them.
 
