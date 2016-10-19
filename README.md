@@ -25,13 +25,13 @@ thousands of pushes and only a few reads.
 ```elixir
 import Rlist
 rlist = []
-  |> ArrayList.push("hello")
-  |> ArrayList.push("fellow")
-  |> ArrayList.push("alchimists")
+  |> Rlist.push("hello")
+  |> Rlist.push("fellow")
+  |> Rlist.push("alchemists")
 
-# Prints ["alchimists", "fellow", "hello"]
+# Prints ["alchemists", "fellow", "hello"]
 rlist |> IO.inspect
 
 # Prints "hello"
-rlist |> ArrayList.first |> IO.puts
+rlist |> Rlist.first |> IO.puts
 ```
